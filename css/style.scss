@@ -44,7 +44,7 @@ html {
 }
 
 body {
-	font-family: "Menlo", sans-serif;
+	font-family: "Menlo", sans-serif,"微软雅黑";
 	font-weight: 300;
 	background-color: $dark;
 	color: $white;
@@ -256,10 +256,10 @@ ul {
 	}
 
 	.author-header {
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Menlo', sans-serif,"微软雅黑";
 		color: $light-blue;
 		margin-top: 0px;
-		padding-top: 15px;
+		padding-top: 50px;
 		font-size: 30px;
 
 		@media (min-width: $screen-sm-min) {
@@ -751,12 +751,12 @@ ul {
 	}
 
 	.title {
-		padding-top:80px;
+		padding-top:20px;
 		font-size: 24px;
-		margin-bottom: 10px;
+		margin-bottom: 20px;
 
 		@media (min-width: $screen-sm-min) {
-			font-size: 24px;
+			font-size: 36px;
 		}
 
 		a {
