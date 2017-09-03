@@ -30,6 +30,7 @@ $medium-purple:  #480048;
 $regular-purple: #601848;
 $red:            #C04848;
 $orange:         #F07241;
+$light-orange: 	 #FF6A13;
 
 /* Responsive sizes */
 $screen-sm-min: 768px;
@@ -54,7 +55,7 @@ body {
 }
 
 a, a:active {
-	color: $light-blue;
+	color: $light-orange;
 	text-decoration: none;
 }
 
@@ -135,7 +136,7 @@ ul {
 	padding-right: 30px;
 	margin-top: 20px;
 	box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
-	border-bottom: 5px solid $light-blue;
+	border-bottom: 5px solid $light-orange;
 }
 
 #my-menu {
@@ -149,7 +150,7 @@ ul {
 	}
 
 	a:hover {
-		color: $light-blue;
+		color: $light-orange;
 	}
 
 	.pages {
@@ -252,12 +253,12 @@ ul {
 	}
 
 	.content-panel:nth-of-type(1) {
-		border-bottom: 10px solid $light-blue;
+		border-bottom: 10px solid $light-orange;
 	}
 
 	.author-header {
 		font-family: 'Menlo',"微软雅黑";
-		color: $light-blue;
+		color: $light-orange;
 		margin-top: 0px;
 		padding-top: 50px;
 		font-size: 30px;
@@ -306,7 +307,7 @@ ul {
 
 		h2 {
 			margin-bottom: 30px;
-			color: $light-blue;
+			color: $light-orange;
 			font-size: 26px;
 		}
 
@@ -346,7 +347,7 @@ ul {
 		}
 
 		a:hover {
-			color: $light-blue;
+			color: $light-orange;
 		}
 	}
 
@@ -373,7 +374,7 @@ ul {
 		}
 
 		a:hover {
-			color: $light-blue;
+			color: $light-orange;
 		}
 
 		ul {
@@ -476,7 +477,7 @@ ul {
 		}
 
 		a:hover {
-			color: $light-blue;
+			color: $light-orange;
 		}
 
 		h4 {
@@ -699,7 +700,7 @@ ul {
 				}
 
 				a:hover {
-					color: $light-blue;
+					color: $light-orange;
 				}
 
 			}
@@ -809,7 +810,7 @@ ul {
 		margin-top: 30px;
 
 		a {
-			color: $light-blue;
+			color: $light-orange;
 		}
 	}
 
@@ -850,8 +851,8 @@ ul {
 }
 
 .btn-categories {
-	background-color: $light-blue;
-	border-color: $light-blue;
+	background-color: $light-orange;
+	border-color: $light-orange;
 	color: $white;
 	&:hover {
 		background-color: $dark-blue;
@@ -871,10 +872,10 @@ ul {
 }
 
 .dropdown-menu {
-	background-color: $light-blue;
+	background-color: $light-orange;
 	color: $white;
 	> li > a {
-		background-color: $light-blue;
+		background-color: $light-orange;
 		color: $white;
 		&:hover {
 			background-color: $dark-blue;
