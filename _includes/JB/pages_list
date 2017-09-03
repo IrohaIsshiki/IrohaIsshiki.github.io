@@ -18,26 +18,7 @@ Usage:
   	i.e. site.tags.cool_tag (this returns an array of posts tagged: cool_tag)
 
   This helper can be seen in use at: ../_layouts/default.html
--->
-<!-- 来必力City版安装代码 -->
-<div id="lv-container" data-id="city" data-uid="MTAyMC8zMDY0Ni83MjAx">
-	<script type="text/javascript">
-   (function(d, s) {
-       var j, e = d.getElementsByTagName(s)[0];
-
-       if (typeof LivereTower === 'function') { return; }
-
-       j = d.createElement(s);
-       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-       j.async = true;
-
-       e.parentNode.insertBefore(j, e);
-   })(document, 'script');
-	</script>
-<noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
-</div>
-<!-- City版安装代码已完成 -->
-{% endcomment %}
+-->{% endcomment %}
 
 {% if site.JB.pages_list.provider == "custom" %}
   {% include custom/pages_list %}
