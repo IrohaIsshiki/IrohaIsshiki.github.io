@@ -1,7 +1,7 @@
 # Site settings
-title: "Carte Noire"
-email: jacob@jacobtomlinson.co.uk
-description: "A dark blog theme for Jekyll."
+title: "丨囧呆丨"
+email: 809869683@qq.com
+description: "一色党一枚"
 baseurl: ""
 url: "http://carte-noire.jacobtomlinson.co.uk/"
 title_description: "A dark blog theme for Jekyll focusing on a clear reading experience. Large text and a narrow body makes carte noire a gorgeous read. With excellent code snippet support and integrated tools such as AddThis and Disqus giving your Jekyll blog all the functionality your users expect."
@@ -15,8 +15,8 @@ post_limit: 5
 # Social usernames/URLs
 twitter_username: _jacobtomlinson
 github_username:  jacobtomlinson
-instagram_username: 
-reddit_username: 
+instagram_username:
+reddit_username:
 linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
 google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
 stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
