@@ -44,11 +44,11 @@ html {
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Menlo","微软雅黑";
 	font-weight: 300;
 	background-color: $dark;
 	color: $white;
-	font-size: 16px;
+	font-size: 20px;
 	height: 100%;
 	width: 100%
 }
@@ -751,7 +751,7 @@ ul {
 	}
 
 	.title {
-		padding-top:40px;
+		padding-top:100px;
 		font-size: 24px;
 		margin-bottom: 20px;
 
