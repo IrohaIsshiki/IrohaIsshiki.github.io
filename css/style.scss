@@ -44,7 +44,7 @@ html {
 }
 
 body {
-	font-family: "Menlo","微软雅黑";
+	font-family: "Menlo","Microsoft Yahei UI";
 	font-weight: 300;
 	background-color: $dark;
 	color: $white;
@@ -751,9 +751,9 @@ ul {
 	}
 
 	.title {
-		padding-top:100px;
+		padding-top:120px;
 		font-size: 24px;
-		margin-bottom: 20px;
+		margin-bottom: 10px;
 
 		@media (min-width: $screen-sm-min) {
 			font-size: 36px;
