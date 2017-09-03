@@ -30,6 +30,7 @@ $medium-purple:  #480048;
 $regular-purple: #601848;
 $red:            #C04848;
 $orange:         #F07241;
+$dark-orange:    #EE5A13;
 $light-orange: 	 #FF6A13;
 $black:          #000000;
 
@@ -61,7 +62,7 @@ a, a:active {
 }
 
 a:hover {
-	color: $dark-blue;
+	color: $dark-orange;
 	text-decoration: none;
 }
 
@@ -70,7 +71,7 @@ ul {
 }
 
 .navbar, .nav {
-	background-color: $dark-blue;
+	background-color: $dark-orange;
 
 	.navbar-toggle {
 		margin-top: 10px;
@@ -85,7 +86,7 @@ ul {
 		}
 
 		a:hover {
-			color: $dark-blue;
+			color: $dark-orange;
 			text-decoration: none;
 		}
 	}
@@ -130,7 +131,7 @@ ul {
 }
 
 .content-panel {
-	background-color: $black;
+	background-color: $medium;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 30px;
@@ -471,7 +472,7 @@ ul {
 
 	.menu {
 
-		background-color: $dark-blue;
+		background-color: $dark-orange;
 
 		a, a:active {
 			color: $white;
@@ -748,7 +749,7 @@ ul {
 		}
 
 		a:hover {
-			color: $dark-blue;
+			color: $dark-orange;
 		}
 	}
 
@@ -856,18 +857,18 @@ ul {
 	border-color: $light-orange;
 	color: $white;
 	&:hover {
-		background-color: $dark-blue;
-		border-color: $dark-blue;
+		background-color: $dark-orange;
+		border-color: $dark-orange;
 		color: $white;
 	}
 	&:active {
-		background-color: $dark-blue;
-		border-color: $dark-blue;
+		background-color: $dark-orange;
+		border-color: $dark-orange;
 		color: $white;
 	}
 	&:focus {
-		background-color: $dark-blue;
-		border-color: $dark-blue;
+		background-color: $dark-orange;
+		border-color: $dark-orange;
 		color: $white;
 	}
 }
@@ -879,7 +880,7 @@ ul {
 		background-color: $light-orange;
 		color: $white;
 		&:hover {
-			background-color: $dark-blue;
+			background-color: $dark-orange;
 			color: $white;
 		}
 	}
@@ -899,5 +900,5 @@ th{
 
 td{
     padding: 2px;
-    border:1px solid $dark-blue;;
+    border:1px solid $dark-orange;;
 }
