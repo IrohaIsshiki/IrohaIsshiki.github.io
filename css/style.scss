@@ -48,7 +48,8 @@ html {
 
 body {
 	font-family: "Menlo","微软雅黑";
-	font-weight: 300;
+	font-weight: normal;
+	//font-weight: 300px;
 	background-image:url(Renatus-Z.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -332,7 +333,7 @@ ul {
 					font-size: 14px;
 					margin-top: -10px;
 					padding-top: 0px;
-					color: $light-medium;
+					color: $white;
 				}
 
 			}
@@ -459,6 +460,7 @@ ul {
 
 	h2 {
 		font-size: 36px;
+		color: $light-orange;
 	}
 
 	h3 {
