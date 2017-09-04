@@ -23,27 +23,26 @@ layout: default
       </div>
       {% endif %}
 
-      <h1 class="header" itemprop="name">{{ page.title }}</h1>
+      <h1 class="header author-header">{{ page.title }}</h1>
 
       <div class="author">
-        <small><i>
+        <small>
+          <span itemprop="datePublished" content="2014-08-28">{{ page.date | date: "%Y %B %-d" }},</span>
           {% if page.author %}
-          by
           <span itemprop="author">
-            {% if site.google_plus_link %}
+            <!-- {% if site.google_plus_link %}
               <a rel="author" href="{{ site.google_plus_link }}">
             {% endif %}
-            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span itemprop="author" itemscope itemtype="http://schema.org/Person"> -->
               <span itemprop="name">{{ page.author }}</span>
-            </span>
+            <!-- </span>
             {% if site.google_plus_link %}
               </a>
-            {% endif %}
+            {% endif %} -->
           </span>
           {% endif %}
-          on <span itemprop="datePublished" content="2014-08-28">{{ page.date | date: "%B %-d, %Y" }}</span>
-          {% if page.categories != empty %} under {% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
-        </i></small>
+          {% if page.categories != empty %}写在{% for category in page.categories limit:1 %}{{ category }}{% endfor %}类别里面{% endif %}
+        </small>
       </div>
 
       <div class="read-time">
@@ -102,7 +101,7 @@ layout: default
 
       </div>
 
-      {% if site.twitter_username and site.disqus_account %}
+      <!-- {% if site.twitter_username and site.disqus_account %}
       <div class="content-panel feedback">
         I <i class="fa fa-heart"></i> feedback.<br />
         Let me know what you think of this article on twitter <a href="http://www.twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a> or leave a comment below!
@@ -117,7 +116,7 @@ layout: default
         I <i class="fa fa-heart"></i> feedback.<br />
         Let me know what you think of this article in the comment section below!
       </div>
-      {% endif %}
+      {% endif %} -->
 
       {% if site.disqus_account %}
       <div class="content-panel comments">
