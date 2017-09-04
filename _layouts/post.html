@@ -23,7 +23,7 @@ layout: default
       </div>
       {% endif %}
 
-      <h1 class="header author-header">{{ page.title }}</h1>
+      <h2 class="header author-header">{{ page.title }}</h2>
 
       <div class="author">
         <small>
@@ -41,13 +41,13 @@ layout: default
             {% endif %} -->
           </span>
           {% endif %}
-          {% if page.categories != empty %}写在{% for category in page.categories limit:1 %}{{ category }}{% endfor %}类别里面{% endif %}
+          {% if page.categories != empty %}写于 {% for category in page.categories limit:1 %}{{ category }}{% endfor %} 类别内{% endif %}
         </small>
       </div>
 
       <div class="read-time">
         <small>
-          {{ minutes }} minute read
+          {{ minutes }}分钟前阅读
         </small>
       </div>
 

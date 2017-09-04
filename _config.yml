@@ -3,23 +3,27 @@ title: "丨囧呆丨"
 email: 809869683@qq.com
 description: "一色党一枚"
 baseurl: ""
-url: "http://carte-noire.jacobtomlinson.co.uk/"
+url: "https://irohaisshiki.github.io/"
 title_description: "一色党一枚"
-title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
-google_analytics: "UA-20365477-4"
-disqus_account: cartenoire
-github_repository: https://github.com/jacobtomlinson/carte-noire
-addthis_id: ra-513c6fa83da6ec67
+title_image:
+  #  "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+google_analytics: "UA-105847074-1"
+disqus_account: JiongDai
+github_repository: https://github.com/IrohaIsshiki
+addthis_id:
+  # ra-513c6fa83da6ec67
 post_limit: 5
 
 # Social usernames/URLs
-twitter_username: _jacobtomlinson
-github_username:  jacobtomlinson
-instagram_username:
-reddit_username:
-linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
-google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
-stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
+twitter_username: irohaisshiki416
+github_username:  irohaisshiki
+instagram_username: 丨囧呆丨
+reddit_username: jiongdai
+linkedin_link:
+  # http://carte-noire.jacobtomlinson.co.uk/
+google_plus_link:
+  # http://carte-noire.jacobtomlinson.co.uk/
+stackoverflow_link: https://stackoverflow.com/users/8559144/jiongdai
 xing_link:
 facebook_link:
 
