@@ -51,7 +51,7 @@ body {
 	font-weight: 300;
 	background-image:url(Renatus-Z.png) no-repeat 0px center;
 	background-size: 100% 100%;
-	background-attachment: scroll;
+	background-attachment: fixed;
 	color: $white;
 	font-size: 20px;
 	height: 100%;
@@ -133,7 +133,7 @@ ul {
 }
 
 .content-panel {
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.8);
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 30px;
