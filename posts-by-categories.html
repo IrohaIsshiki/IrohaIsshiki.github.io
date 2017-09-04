@@ -9,7 +9,9 @@ make-smaller-titles: true
 
     <h1 class="header author-header">{{ site.author_name }}</h1>
     <h2 class="header" itemprop="headline">所有文章</h2>
-    <h2 class="header categories" itemprop="headline"><small>分类
+    <h2 class="header categories" itemprop="headline">
+      <!-- <small> -->
+        分类
       <div class="dropdown btn-group">
         <button class="btn btn-categories dropdown-toggle btn-xs" type="button" data-toggle="dropdown">类别
           <span class="caret"></span>
@@ -18,8 +20,8 @@ make-smaller-titles: true
           <li><a href="{{ site.baseurl }}/posts/">年份</a></li>
         </ul>
       </div>
-
-    </small></h2>
+    <!-- </small> -->
+  </h2>
       {% for category in site.categories %}
       <div class="col-md-12 content-panel articles">
         <h2 id="{{ category | first }}-ref">{{ category | first }}</h2>
