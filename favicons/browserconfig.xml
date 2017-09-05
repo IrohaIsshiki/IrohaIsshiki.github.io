@@ -2,11 +2,6 @@
 <browserconfig>
   <msapplication>
     <tile>
-      <squarelogo src="/favicons/favicons.ico"/>
-      <square16x16logo src="/favicons/favicons-16x16.png"/>
-      <square32x32logo src="/favicons/favicons-32x32.png"/>
-      <square48x48logo src="/favicons/favicons-48x48.png"/>
-      <square96x96logo src="/favicons/favicons-96x96.png"/>
       <square70x70logo src="/favicons/mstile-70x70.png"/>
       <square150x150logo src="/favicons/mstile-150x150.png"/>
       <square310x310logo src="/favicons/mstile-310x310.png"/>
