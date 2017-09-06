@@ -50,7 +50,7 @@ body {
 	font-family: "Menlo","微软雅黑";
 	font-weight: normal;
 	//font-weight: 300px;
-	@media (min-width:$screen-sm-min) {
+	@media (width<height) {
 		background-color: $dark;
 		background-size: 100% 100%;
 		color: $white;
@@ -59,20 +59,7 @@ body {
 		width: 100%
 	}
 
-	@media (min-width:$screen-md-min) {
-		background-color: $dark;
-		background-image:url(Renatus·Z.png);
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-size: 100% 100%;
-		color: $white;
-		font-size: 20px;
-		height: 100%;
-		width: 100%
-	}
-
-
-	@media (min-width:$screen-lg-min) {
+	@media (width>height) {
 		background-color: $dark;
 		background-image:url(Renatus·Z.png);
 		background-repeat: no-repeat;
@@ -83,6 +70,19 @@ body {
 		height: 100%;
 		width: 100%
 	}
+
+
+	// @media (min-width:$screen-lg-min) {
+	// 	background-color: $dark;
+	// 	background-image:url(Renatus·Z.png);
+	// 	background-repeat: no-repeat;
+	// 	background-attachment: fixed;
+	// 	background-size: 100% 100%;
+	// 	color: $white;
+	// 	font-size: 20px;
+	// 	height: 100%;
+	// 	width: 100%
+	// }
 
 }
 
