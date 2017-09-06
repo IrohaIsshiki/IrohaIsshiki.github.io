@@ -167,7 +167,7 @@ ul {
 }
 
 .content-panel {
-	@media (max-width: $screen-lg-min) {
+	@media (max-width: $screen-lg-max) {
 		background-color: rgba(0, 0, 0, 0.5);
 	}
 
@@ -465,7 +465,7 @@ ul {
 		margin-top: 25px;
 
 		color:$white;
-		@media (max-width: $screen-lg-min) {
+		@media (max-width: $screen-lg-max) {
 			background-color: rgba(0, 0, 0, 0.5);
 		}
 
