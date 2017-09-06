@@ -464,10 +464,17 @@ ul {
 		margin: 2px;
 		margin-top: 25px;
 
-		color:$dark;
-		background-color:$white;
+		color:$white;
+		@media (max-width: $screen-lg-min) {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
 
-		border:1px solid #adc5cf;
+		@media (min-width: $screen-sm-min) {
+			background-color: rgba(0, 0, 0, 0.7);
+		}
+
+		// border:1px solid #adc5cf;
+		border:1px solid light-orange;
 		border-radius:15px;
 		-moz-border-radius:15px;
 		-webkit-border-radius:15px;
