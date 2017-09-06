@@ -49,11 +49,11 @@ html {
 
 body {
 	font-family: "Menlo","微软雅黑";
-	// font-weight: normal;
+	font-weight: normal;
 	//font-weight: 300px;
-	// @media (max-width: $screen-lg-min) {
-	@media (max-width < max-height) {
+	@media (max-width: $screen-lg-min) {
 		background-color: $dark;
+		background-image:url(Renatus·Z-Mobile.png);
 		background-size: 100% 100%;
 		color: $white;
 		font-size: 20px;
@@ -61,10 +61,9 @@ body {
 		width: 100%
 	}
 
-	// @media (min-width: $screen-sm-min) {
-	@media (min-width > min-height) {
+	@media (min-width: $screen-sm-min) {
 		background-color: $dark;
-		background-image:url(Renatus·Z.png);
+		background-image:url(Renatus·Z-Computer.png);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: 100% 100%;
