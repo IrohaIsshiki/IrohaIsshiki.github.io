@@ -52,11 +52,12 @@ body {
 	font-weight: normal;
 	//font-weight: 300px;
 	@media (max-width: $screen-lg-min) {
-		background-color: $dark;
+		background-color: $black;
 		background-image:url(Renatus·Z-Mobile.png);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
-		background-size: 100% ;
+		background-position: center center;
+		background-size: cover ;
 		color: $white;
 		font-size: 20px;
 		//height: 100%;
