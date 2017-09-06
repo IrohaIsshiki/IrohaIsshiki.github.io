@@ -627,7 +627,7 @@ ul {
 				}
 
 				:before {
-    			font-family: "Times New Roman";
+    			font-family: "Menlo","微软雅黑";
 					color: $light-medium;
 			    content: "“";
 			    position: absolute;
@@ -661,10 +661,10 @@ ul {
 
 				pre {
 					width: 100%;
-					font-family: 'Anonymous Pro';
+					font-family: "Menlo","微软雅黑";
 					background-color: $darker;
 					color: $white;
-					font-size: 12px;
+					font-size: 14px;
 					border: none;
 					padding-left: 15px;
 					padding-top: 20px;
@@ -687,7 +687,7 @@ ul {
 			p, ul, ol {
 
 				code {
-					font-family: 'Anonymous Pro';
+					font-family: "Menlo","微软雅黑";
 					font-size: 15px;
 					background-color: $darker;
 					color: $white;
