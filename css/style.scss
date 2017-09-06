@@ -167,7 +167,13 @@ ul {
 }
 
 .content-panel {
-	background-color: rgba(0, 0, 0, 0.7);
+	@media (max-width: $screen-lg-min) {
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	@media (min-width: $screen-sm-min) {
+		background-color: rgba(0, 0, 0, 0.7);
+	}
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 30px;
@@ -298,13 +304,13 @@ ul {
 	.author-header {
 		font-family: 'Menlo',"微软雅黑";
 		color: $light-orange;
-		margin-top: 50px;
+		margin-top: 30px;
 		padding-top: 0px;
 		font-size: 30px;
 
 		@media (min-width: $screen-sm-min) {
 			font-size: 52px;
-			margin-top: 50px;
+			margin-top: 30px;
 		}
 
 		@media (min-width: $screen-md-min) {
