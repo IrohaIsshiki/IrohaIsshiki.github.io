@@ -167,13 +167,7 @@ ul {
 }
 
 .content-panel {
-	@media (max-width: $screen-lg-max) {
-		background-color: rgba(0, 0, 0, 0.5);
-	}
-
-	@media (min-width: $screen-sm-min) {
-		background-color: rgba(0, 0, 0, 0.7);
-	}
+	background-color: rgba(0, 0, 0, 0.5);
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 30px;
@@ -465,19 +459,13 @@ ul {
 		margin-top: 25px;
 
 		color:$white;
-		@media (max-width: $screen-lg-max) {
-			background-color: rgba(0, 0, 0, 0.5);
-		}
-
-		@media (min-width: $screen-sm-min) {
-			background-color: rgba(0, 0, 0, 0.7);
-		}
+		background-color: rgba(0, 0, 0, 0.5);
 
 		// border:1px solid #adc5cf;
-		// border:1px solid light-orange;
+		border:1px solid rgba(0, 0, 0, 0.5);
 		// border-radius:15px;
-		// -moz-border-radius:15px;
-		// -webkit-border-radius:15px;
+		 -moz-border-radius:15px;
+		 -webkit-border-radius:15px;
 	}
 
 	#search-input:focus {
