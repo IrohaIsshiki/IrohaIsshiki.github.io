@@ -35,6 +35,7 @@ $light-orange: 	 #FF6A13;
 $black:          #000000;
 
 /* Responsive sizes */
+$screen-lg-max: 767px;
 $screen-sm-min: 768px;
 $screen-md-min: 992px;
 $screen-lg-min: 1200px;
@@ -50,7 +51,7 @@ body {
 	font-family: "Menlo","微软雅黑";
 	font-weight: normal;
 	//font-weight: 300px;
-	@media (width<height) {
+	@media (max-width: $screen-lg-min) {
 		background-color: $dark;
 		background-size: 100% 100%;
 		color: $white;
@@ -59,7 +60,7 @@ body {
 		width: 100%
 	}
 
-	@media (width>height) {
+	@media (min-width: $screen-sm-min) {
 		background-color: $dark;
 		background-image:url(Renatus·Z.png);
 		background-repeat: no-repeat;
