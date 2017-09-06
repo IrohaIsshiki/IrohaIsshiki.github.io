@@ -262,6 +262,24 @@ ul {
 		border-bottom: 10px solid $light-orange;
 	}
 
+	.author-title {
+		font-family: 'Menlo',"微软雅黑";
+		color: $light-orange;
+		margin-top: 0px;
+		padding-top: 50px;
+		font-size: 30px;
+
+		@media (min-width: $screen-sm-min) {
+			font-size: 52px;
+			margin-top: 0px;
+		}
+
+		@media (min-width: $screen-md-min) {
+			font-size: 60px;
+			margin-top: -20px;
+		}
+	}
+
 	.author-header {
 		font-family: 'Menlo',"微软雅黑";
 		color: $light-orange;
