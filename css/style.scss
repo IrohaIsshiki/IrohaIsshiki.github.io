@@ -52,7 +52,7 @@ body {
 	// font-weight: normal;
 	//font-weight: 300px;
 	// @media (max-width: $screen-lg-min) {
-	@media (max-width<max-height) {
+	@media (max-width < max-height) {
 		background-color: $dark;
 		background-size: 100% 100%;
 		color: $white;
@@ -62,7 +62,7 @@ body {
 	}
 
 	// @media (min-width: $screen-sm-min) {
-	@media (min-width>min-height) {
+	@media (min-width > min-height) {
 		background-color: $dark;
 		background-image:url(Renatus·Z.png);
 		background-repeat: no-repeat;
