@@ -27,6 +27,11 @@ stackoverflow_link: https://stackoverflow.com/users/8559144/jiongdai
 xing_link:
 facebook_link:
 
+# 百度统计
+# 使用博客模板请去掉或者更换 id
+baidu:
+    id: 1b2379208d946117eb078a72e3efe4d1
+
 # Footer
 footer_left:
   # "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
